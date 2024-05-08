@@ -1,0 +1,135 @@
+.bgstake{
+  background-image: url("../assets/stake.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 0%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .bgstake {
+    background-size: contain;
+    margin: 0%;
+    height: 100%;
+  }
+}
+.home-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+     min-height: 100vh;
+    padding: 20px;
+  
+ }
+  
+  .text-container {
+    /* text-align: center; */
+    margin-bottom: 20px;
+  }
+  .h1text{
+    color: black;
+    padding: 12px;
+    border-radius: 23.094px;
+    border: 1.847px solid #00FFE0;
+    background: rgba(0, 255, 224, 0.10);
+    backdrop-filter: blur(7.851851940155029px);
+  }
+.hitext{
+  
+}
+.textcolor{
+    color: #ffff;
+    padding: 2rem;
+}
+.stakeamt{
+   color: black;
+   border: 1.847px solid #00FFE0;
+   border-radius: 22px;
+   padding: 0.5rem;
+   text-align: center;
+}
+  .image-container {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for responsiveness */
+  @media (min-width: 768px) {
+    .home-container {
+      flex-direction: row; 
+      align-items: center; 
+    }
+   
+    .text-container {
+      margin-right: 20px; 
+      margin-bottom: 0; 
+    }
+  
+  }
+  /* Style for Connect Wallet button */
+.walletbtn {
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+
+}
+.wallet{
+  padding: 11.787px 30.977px 12.72px 34.314px;
+  border-radius: 39.289px;
+  background: #0047FF;  color: white;
+  cursor: pointer;
+}
+.walletbtn button {
+  border-radius: 39.289px;
+  background: #0047FF;  color: white;
+  cursor: pointer;
+  padding: 11.787px 30.977px 12.72px 30.314px;
+  flex-shrink: 0;
+}
+
+.walletbtn button:hover {
+  background-color: #1ccca6;
+
+}
+.successMessage{
+  color: #fa0915;
+  align-items: center;
+  padding: 19.787px 30.977px 12.72px 30.314px;
+  font-weight: 700;
+}
+.stakesuccess{
+  color: blue;
+  padding: 3.787px 32px 27.72px 58px;
+  font-weight: 700;
+}
+.stake-after{
+    padding: 12px;
+    background-color: #C1F0FF;
+    border-radius: 24px;
+    border-color: #0047FF;
+}
+
+.custom-select {
+  background: none; 
+  border: none; 
+  outline: none; 
+}
+@media (max-width: 768px) {
+  .absolute.bottom-0.left-0 {
+    display: none;
+  }
+}
+
+
+.notemsg{
+  color: #fa0915;
+  font-weight: bold;
+}
+
+

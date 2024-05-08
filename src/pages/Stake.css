@@ -1,0 +1,14 @@
+.staketext{
+    color: aliceblue;
+    background-image: url("../assets/bgcardgif.gif");
+    background-size: cover; 
+  background-position: center;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+    .staketext {
+      font-size: 1.5rem;
+      padding: 10px; 
+    }
+  }
+
